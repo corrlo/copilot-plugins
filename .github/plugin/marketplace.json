@@ -1,0 +1,21 @@
+{
+  "name": "corrlo-copilot-plugins",
+  "owner": {
+    "name": "Corrlo",
+    "email": "support@corrlo.com"
+  },
+  "metadata": {
+    "description": "Corrlo plugins for GitHub Copilot and VS Code Agent Plugins (remote MCP).",
+    "version": "1.0.0",
+    "pluginRoot": "plugins"
+  },
+  "plugins": [
+    {
+      "name": "corrlo",
+      "description": "Corrlo Task & CRM Workspace via remote MCP (App Connect OAuth).",
+      "version": "1.0.0",
+      "source": "./plugins/corrlo",
+      "keywords": ["corrlo", "crm", "tasks", "mcp"]
+    }
+  ]
+}
