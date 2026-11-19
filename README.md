@@ -11,12 +11,12 @@ GitHub Copilot / VS Code Agent Plugins marketplace for **Corrlo**.
 {
   "chat.plugins.enabled": true,
   "chat.plugins.marketplaces": [
-    "OWNER/REPO"
+    "corrlo/copilot-plugins"
   ]
 }
 ```
 
-Replace `OWNER/REPO` with this repository (e.g. `corrlo/copilot-plugins`).
+Replace `corrlo/copilot-plugins` with this repository (`corrlo/copilot-plugins`).
 
 Then: **Chat: Open Customizations** → Plugins → Browse Marketplace → Install **corrlo** → complete Corrlo OAuth consent.
 
