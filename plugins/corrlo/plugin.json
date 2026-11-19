@@ -9,11 +9,21 @@
     "url": "https://www.corrlo.com"
   },
   "homepage": "https://www.corrlo.com/mcp",
-  "keywords": ["corrlo", "crm", "tasks", "workspace", "mcp", "productivity", "copilot"],
+  "keywords": [
+    "corrlo",
+    "crm",
+    "tasks",
+    "workspace",
+    "mcp",
+    "productivity",
+    "copilot"
+  ],
   "extensions": {
     "com.github.copilot": {
       "displayName": "Corrlo",
       "description": "Corrlo Task & CRM Workspace via remote MCP (App Connect OAuth). Read tools for accounts, employees, workspaces, tasks, projects, and CRM."
     }
-  }
+  },
+  "license": "MIT",
+  "repository": "https://github.com/corrlo/copilot-plugins"
 }
