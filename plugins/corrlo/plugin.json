@@ -1,29 +1,21 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "corrlo",
-  "version": "1.0.0",
-  "description": "Connect GitHub Copilot to your Corrlo Task & CRM Workspace: accounts, employees, workspaces, tasks, projects, and CRM.",
+  "version": "1.1.0",
+  "description": "Corrlo Task & CRM for GitHub Copilot: setup skills, workspace guidance, custom agent, and remote MCP (OAuth App Connect).",
   "author": {
     "name": "Corrlo",
     "email": "support@corrlo.com",
     "url": "https://www.corrlo.com"
   },
   "homepage": "https://www.corrlo.com/mcp",
-  "keywords": [
-    "corrlo",
-    "crm",
-    "tasks",
-    "workspace",
-    "mcp",
-    "productivity",
-    "copilot"
-  ],
+  "keywords": ["corrlo", "crm", "tasks", "workspace", "mcp", "productivity", "copilot"],
+  "license": "MIT",
+  "repository": "https://github.com/corrlo/copilot-plugins",
   "extensions": {
     "com.github.copilot": {
       "displayName": "Corrlo",
-      "description": "Corrlo Task & CRM Workspace via remote MCP (App Connect OAuth). Read tools for accounts, employees, workspaces, tasks, projects, and CRM."
+      "description": "Skills and agent guidance for Corrlo Task & CRM, plus remote MCP (App Connect OAuth). Use for accounts, employees, workspaces, tasks, projects, and CRM."
     }
-  },
-  "license": "MIT",
-  "repository": "https://github.com/corrlo/copilot-plugins"
+  }
 }
